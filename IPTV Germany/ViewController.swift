@@ -202,16 +202,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sbn() {
-        streamurl = ""
+        streamurl = "https://playback2.akamaized.net/streams/29151850_9385260_lsi6yt90ewtzeeoy9tv_1/master.m3u8?dw=14400&hdnts=exp=1676847423~acl=/streams/29151850_9385260_lsi6yt90ewtzeeoy9tv_1/master.m3u8*~hmac=5b4eab93a8231b6b4f5dba91c79613e89c803b7a09fbc4a22c546a27c758ec90"
     }
     
-    @IBAction func sonnenklar() {
-        streamurl = ""
+    @IBAction func mediashop() {
+        streamurl = "https://mediashop.akamaized.net/hls/live/2032402/Meine_Einkaufswelt/1.m3u8"
     }
-    
-    @IBAction func skyselect() {
-        streamurl = ""
-    }
+
     
     @IBAction func sport1() {
         streamurl = "https://streaming-s1free.sport1.de/BSmnM7aYg9qlCjrvWSxT1Q==,1676757834/ls-45420-1/tracks-v1a1/mono.m3u8"
@@ -234,7 +231,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tlc() {
-        streamurl = "https://data.fernsehzone.com/stream123.php/tlc.m3u8"
+        streamurl = ""
     }
     
     @IBAction func wdr() {
@@ -266,6 +263,22 @@ class ViewController: UIViewController {
         streamurl = "https://content.pzaz.tv/content-live/de-toggo-plus/playlist.m3u8"
     }
     
+    
+    @IBAction func deluxemusic() {
+        streamurl = "https://content.pzaz.tv/content-live/de-deluxe-music/playlist.m3u8"
+    }
+    
+    @IBAction func qvcstyle() {
+        streamurl = "https://live-qvcde.simplestreamcdn.com/live/qvcde_beauty_clean/bitrate1.isml/live.m3u8"
+    }
+    
+    @IBAction func bbc() {
+        streamurl = "http://1292072398.rsc.cdn77.org/F2i8W6013Oi8Bcp9kKdHbQ==,1676863469/1292072398/tracks-v1a1/mono.m3u8"
+    }
+    
+    @IBAction func euronews() {
+        streamurl = "https://euronews-euronews-world-1-au.samsung.wurl.com/manifest/00652820d6946952c6e3002b0e720fff.m3u8"
+    }
     
     
 }

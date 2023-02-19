@@ -23,6 +23,8 @@
 		050DCEAD299FD8CE00164A20 /* StreamingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050DCE97299FD8CD00164A20 /* StreamingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		050DCEB6299FD93A00164A20 /* StreamingVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DCEB5299FD93A00164A20 /* StreamingVideoPlayer.swift */; };
 		050DCEB8299FEE2D00164A20 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DCEB7299FEE2D00164A20 /* PlayerViewController.swift */; };
+		059750E129A29BFA0022D463 /* CustomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059750E029A29BFA0022D463 /* CustomPlayerViewController.swift */; };
+		059750E329A29E200022D463 /* CustomStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059750E229A29E200022D463 /* CustomStreamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		050DCEA7299FD8CE00164A20 /* StreamingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingKitTests.swift; sourceTree = "<group>"; };
 		050DCEB5299FD93A00164A20 /* StreamingVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingVideoPlayer.swift; sourceTree = "<group>"; };
 		050DCEB7299FEE2D00164A20 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		059750E029A29BFA0022D463 /* CustomPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerViewController.swift; sourceTree = "<group>"; };
+		059750E229A29E200022D463 /* CustomStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStreamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +173,11 @@
 				050DCE65299FD19E00164A20 /* AppDelegate.swift */,
 				050DCE67299FD19E00164A20 /* ViewController.swift */,
 				050DCE69299FD19E00164A20 /* Main.storyboard */,
+				059750E229A29E200022D463 /* CustomStreamViewController.swift */,
 				050DCE6C299FD1A500164A20 /* Assets.xcassets */,
 				050DCE6E299FD1A500164A20 /* LaunchScreen.storyboard */,
 				050DCEB7299FEE2D00164A20 /* PlayerViewController.swift */,
+				059750E029A29BFA0022D463 /* CustomPlayerViewController.swift */,
 			);
 			path = "IPTV Germany";
 			sourceTree = "<group>";
@@ -417,6 +423,8 @@
 			files = (
 				050DCE68299FD19E00164A20 /* ViewController.swift in Sources */,
 				050DCE66299FD19E00164A20 /* AppDelegate.swift in Sources */,
+				059750E129A29BFA0022D463 /* CustomPlayerViewController.swift in Sources */,
+				059750E329A29E200022D463 /* CustomStreamViewController.swift in Sources */,
 				050DCEB8299FEE2D00164A20 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
