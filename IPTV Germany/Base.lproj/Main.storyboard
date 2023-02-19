@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jTP-lP-xwE">
+            <objects>
+                <viewController id="j6m-Jm-hzw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8hp-2j-LrY"/>
+                        <viewControllerLayoutGuide type="bottom" id="eqM-sa-1e8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fxf-hM-9rW">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany made with ❤️ by Florian Mans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We2-cL-RGS">
+                                <rect key="frame" x="97" y="68" width="745" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dDg-xP-Mmg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHB-Sq-SZz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1105" y="-1447"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="aC1-1B-ggx"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u8l-PY-GyV"/>
+                        <viewControllerLayoutGuide type="bottom" id="mET-Y4-90O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TEK-ao-HQc">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="E9S-og-CfT">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Uux-ol-pAO">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGS-rV-O05">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="daserste"/>
+                                                <connections>
+                                                    <action selector="dasErste" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="YG2-Ie-Alg"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="AoR-kp-LW9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCs-5b-CLT">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="zdf 1"/>
+                                                <connections>
+                                                    <action selector="zdf" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="3Wy-Qk-mx4"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="e2c-9q-c49"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSM-zD-Hj9">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ntv"/>
+                                                <connections>
+                                                    <action selector="ntv" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="lTG-Ki-vPu"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="s2L-xJ-rO1"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YwX-5k-jqp">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elu-gd-ta9">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rtl 1"/>
+                                                <connections>
+                                                    <action selector="rtl" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="V3S-7s-vNe"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="UK5-gE-KD3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwN-a2-hTW">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rtl2"/>
+                                                <connections>
+                                                    <action selector="rtlZwei" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Yox-GA-TPq"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="Frp-Cg-he9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYs-mp-lMR">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="vox"/>
+                                                <connections>
+                                                    <action selector="vox" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="LAy-tu-yQ5"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="9Le-Yn-cZi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ly5-Mu-D0s">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcM-6E-7PY">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sat1"/>
+                                                <connections>
+                                                    <action selector="sat1" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="hRO-Ft-qjr"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="dik-y7-t9q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miD-Tm-7gv">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="pro7"/>
+                                                <connections>
+                                                    <action selector="proSieben" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="FQa-rt-N5N"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="b8S-pl-wWb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFW-sa-YeO">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="kabel1"/>
+                                                <connections>
+                                                    <action selector="kabeleins" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="SHK-X8-anR"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="cff-6j-kVz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tZS-at-LOJ">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWh-FQ-VTQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="servus_tv"/>
+                                                <connections>
+                                                    <action selector="servus" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Jms-IG-5Xc"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="VtX-NH-eSj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-Km-YBo">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❯">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="kM0-Ns-dCF" kind="show" id="DGX-Nf-fZ5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOf-rm-yKE">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sat1gold"/>
+                                                <connections>
+                                                    <action selector="gold" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Axb-ep-arf"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="VXd-dZ-Hea"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="900" id="ZIn-tP-uTQ"/>
+                                    <constraint firstAttribute="width" constant="1700" id="pYA-Rs-ogt"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuZ-bc-tED">
+                                <rect key="frame" x="642" y="-5" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWY-c9-8oF">
+                                <rect key="frame" x="7" y="976" width="144" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="info.circle.fill" catalog="system" title="Info"/>
+                                <connections>
+                                    <segue destination="j6m-Jm-hzw" kind="showDetail" id="hFa-K8-hsH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tJz-ag-dLt"/>
+                        <constraints>
+                            <constraint firstItem="E9S-og-CfT" firstAttribute="leading" secondItem="tJz-ag-dLt" secondAttribute="leading" constant="30" id="3EM-aI-LEO"/>
+                            <constraint firstItem="E9S-og-CfT" firstAttribute="top" secondItem="tJz-ag-dLt" secondAttribute="top" constant="30" id="BIp-R7-R4K"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3eB-t6-IO2"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="zAl-HT-nj4"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="3"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="cnN-xh-NsM">
+            <objects>
+                <viewController id="A5T-WI-e0r" customClass="PlayerViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ugs-GU-jZp"/>
+                        <viewControllerLayoutGuide type="bottom" id="yoL-Si-4sE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XF1-nh-sVy">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mcm-y0-BjY">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jeg-MP-hz9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XMu-eo-IcV"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="iI4-w3-XDn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPF-gu-7hN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2877" y="5818"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="152-DG-5rx">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="V6r-rL-PRt"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LJX-VH-hqz" sceneMemberID="firstResponder"/>
+                <viewController id="kM0-Ns-dCF" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZDK-Nu-wrF"/>
+                        <viewControllerLayoutGuide type="bottom" id="bWC-Z7-eEq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ua9-rD-ZOG">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-jm-42h">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3Gw-q3-1RX">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HA-95-Olq">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="3sat_hd"/>
+                                                <connections>
+                                                    <action selector="dreisat" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="V4v-8D-Exf"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="5Ah-9c-c1a"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrz-mY-pKa">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="Ozv-k1-Dac"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwE-3Y-5OX">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arte_hd"/>
+                                                <connections>
+                                                    <action selector="arte" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="tFB-uc-U6R"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="eBK-0F-RNE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fKN-uA-I0M">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCe-K1-yWA">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ard_alpha"/>
+                                                <connections>
+                                                    <action selector="alpha" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="0b9-cK-1WT"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="mbi-Yz-Hrw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3u-mg-3um">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ard_one_hd"/>
+                                                <connections>
+                                                    <action selector="oneHD" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="f6b-tp-Opq"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="soT-tK-hhi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeW-fR-PeV">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="bibel_tv"/>
+                                                <connections>
+                                                    <action selector="bibel" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="ymW-lS-rD5"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="MAp-MR-Kw1"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Pgg-eP-xej">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifn-JK-08r">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="bloomberg"/>
+                                                <connections>
+                                                    <action selector="bloom" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="jPh-vk-dOk"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="b5v-DY-EDN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTw-Gj-nRX">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="br"/>
+                                                <connections>
+                                                    <action selector="br" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="RwB-5c-lly"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="lP1-mF-qFL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVX-d3-0vp">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="hse24"/>
+                                                <connections>
+                                                    <action selector="hse24" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="Ebj-gU-ZA6"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="ck5-ru-iIM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BCT-cL-sXu">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFw-5M-8eE">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="hse24_extra"/>
+                                                <connections>
+                                                    <action selector="hse24extra" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="bN0-z4-7EX"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="Zms-y7-5LI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Kj-U7-MFx">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❯">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="O0J-Nu-GyG" kind="show" id="gly-yo-jFB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q48-4e-ebg">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="deutsche_welle"/>
+                                                <connections>
+                                                    <action selector="dw" destination="kM0-Ns-dCF" eventType="primaryActionTriggered" id="rHc-PH-rZ6"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="TFU-xw-mNe"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1700" id="3O9-9K-99k"/>
+                                    <constraint firstAttribute="height" constant="900" id="41g-f5-PHN"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-1t-SaZ">
+                                <rect key="frame" x="626" y="10" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="q9O-1B-Ef1"/>
+                        <constraints>
+                            <constraint firstItem="FUz-jm-42h" firstAttribute="leading" secondItem="q9O-1B-Ef1" secondAttribute="leading" constant="30" id="E5U-lN-cwu"/>
+                            <constraint firstItem="FUz-jm-42h" firstAttribute="top" secondItem="q9O-1B-Ef1" secondAttribute="top" constant="30" id="QgS-HZ-0PE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nvS-NH-Ixl"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="RuS-oT-PtN"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="1337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UUz-sz-APo">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="zp3-cQ-Nk5"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTR-0P-0Jd" sceneMemberID="firstResponder"/>
+                <viewController id="O0J-Nu-GyG" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dhm-L4-6W9"/>
+                        <viewControllerLayoutGuide type="bottom" id="qDG-VA-ITa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aa3-us-c8X">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ab4-r8-FvN">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Xy6-jR-Czc">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHJ-C8-PxY">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="disney_channel"/>
+                                                <connections>
+                                                    <action selector="disch" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="LQi-Wi-8fF"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="A0n-0J-eCT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TD3-Hz-rwI">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="kM0-Ns-dCF" kind="show" id="Oos-Q9-OEq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8s-mz-pSN">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="dmax"/>
+                                                <connections>
+                                                    <action selector="dmax" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="LQ6-09-HoO"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="kEQ-Kk-wVK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Lcy-29-AUw">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVK-SG-OAW">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="einszweidrei_tv"/>
+                                                <connections>
+                                                    <action selector="one23tv" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="Mhh-aK-3xM"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="uNt-oH-Wwz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWw-q7-O3Y">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="kabel1_doku"/>
+                                                <connections>
+                                                    <action selector="kabeldoku" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="l0W-ho-NHU"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="zQx-5j-23S"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pa-td-oB6">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ndr_hd"/>
+                                                <connections>
+                                                    <action selector="ndr" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="2SL-5x-CDi"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="BVr-dl-X5o"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DeU-ot-Pes">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufn-vf-vzA">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="kika_hd"/>
+                                                <connections>
+                                                    <action selector="kika" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="iJs-lr-NIY"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="4qy-Gy-EaM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Hv-cf-xth">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="mdr"/>
+                                                <connections>
+                                                    <action selector="mdr" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="ttg-if-WB2"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="vPy-la-w5e"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OZ-y7-lvu">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="hr_hd"/>
+                                                <connections>
+                                                    <action selector="hr" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="Ald-Xg-2Dr"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="8DW-Ux-CZA"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wdh-ij-1dh">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UtZ-OJ-6iW">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="n24"/>
+                                                <connections>
+                                                    <action selector="n24" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="v2G-nz-VzY"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="QZl-57-zt6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-ZA-TD8">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❯">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="al3-sX-tHI" kind="show" id="WRt-am-zpG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4E-Pe-YeF">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="juwelo"/>
+                                                <connections>
+                                                    <action selector="juwelo" destination="O0J-Nu-GyG" eventType="primaryActionTriggered" id="DgV-UI-4iY"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="6NG-sn-1pJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1700" id="MRZ-cO-C2a"/>
+                                    <constraint firstAttribute="height" constant="900" id="ah2-53-zWj"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ch4-Qr-I3m">
+                                <rect key="frame" x="626" y="10" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CPt-Je-Faj"/>
+                        <constraints>
+                            <constraint firstItem="Ab4-r8-FvN" firstAttribute="leading" secondItem="CPt-Je-Faj" secondAttribute="leading" constant="30" id="7ke-23-pyI"/>
+                            <constraint firstItem="Ab4-r8-FvN" firstAttribute="top" secondItem="CPt-Je-Faj" secondAttribute="top" constant="30" id="QGi-3c-4Nz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="K6q-e4-jpu"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="fSZ-1v-gj0"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="2779"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cis-OE-f6e">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="tIq-Qf-8Ks"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjN-YI-dcQ" sceneMemberID="firstResponder"/>
+                <viewController id="al3-sX-tHI" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a17-3r-0oV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Blh-gF-bzp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="62E-x5-3VT">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="agW-be-zsK">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Lq9-Vr-wPF">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfV-N3-Q5J">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="nickelodeon"/>
+                                                <connections>
+                                                    <action selector="disch" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="PYt-9l-OSn"/>
+                                                    <action selector="nick" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="Fad-iT-p91"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="BTE-cc-JyN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5E-2n-DxE">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="O0J-Nu-GyG" kind="show" id="Awz-Qg-QTT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkB-Dv-iLx">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="superrtl"/>
+                                                <connections>
+                                                    <action selector="dmax" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="1Da-Tk-b7H"/>
+                                                    <action selector="superrtl" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="Uei-ci-rTt"/>
+                                                    <segue destination="A5T-WI-e0r" kind="showDetail" id="HjE-OB-3MR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IQK-AS-nn2">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7A-3T-ej1">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="eurosport"/>
+                                                <connections>
+                                                    <action selector="one23tv" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="owy-5d-nP3"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="oD7-Rp-3co"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khD-MN-GXD">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="phoenix"/>
+                                                <connections>
+                                                    <action selector="kabeldoku" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="tXt-81-Yyu"/>
+                                                    <action selector="phoenix" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="Mqs-on-eyA"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="bbm-Rl-37P"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hed-Of-2QF">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="pro7maxx"/>
+                                                <connections>
+                                                    <action selector="ndr" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="NtK-jB-p9q"/>
+                                                    <action selector="pro7maxx" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="GAC-Iy-8Nb"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="dpd-0z-kbW"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="28F-fo-pa0">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdn-NE-Kqb">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="qvc"/>
+                                                <connections>
+                                                    <action selector="kika" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="9CF-vl-UCg"/>
+                                                    <action selector="qvc" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="4fg-Le-a2a"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="jVZ-8n-bnf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRE-bt-dvU">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="qvc_plus"/>
+                                                <connections>
+                                                    <action selector="mdr" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="ppd-Vs-vok"/>
+                                                    <action selector="qvcplus" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="Weu-du-nt5"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="W7w-tG-ffc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUX-7b-E9x">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rbb"/>
+                                                <connections>
+                                                    <action selector="hr" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="lup-r5-Ndr"/>
+                                                    <action selector="rbb" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="hga-tO-nUW"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="yqg-Px-Ao8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="agD-FJ-HoK">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSb-u7-tHc">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rtlnitro"/>
+                                                <connections>
+                                                    <action selector="n24" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="epI-3g-CWc"/>
+                                                    <action selector="rtlnitro" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="Mgv-8h-3TT"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="y1x-DW-Y5C"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsA-RL-B4W">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❯">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="1Fd-3F-UxG" kind="show" id="QmA-tx-kRc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwu-0U-4RX">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rtlplus"/>
+                                                <connections>
+                                                    <action selector="juwelo" destination="al3-sX-tHI" eventType="primaryActionTriggered" id="ciD-xJ-Grb"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="W0z-PG-qsR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="900" id="66R-L5-mGp"/>
+                                    <constraint firstAttribute="width" constant="1700" id="wIG-FP-TTf"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGK-P0-Ygi">
+                                <rect key="frame" x="626" y="10" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2V3-Fq-Rly"/>
+                        <constraints>
+                            <constraint firstItem="agW-be-zsK" firstAttribute="top" secondItem="2V3-Fq-Rly" secondAttribute="top" constant="30" id="GC8-Xo-Tof"/>
+                            <constraint firstItem="agW-be-zsK" firstAttribute="leading" secondItem="2V3-Fq-Rly" secondAttribute="leading" constant="30" id="fOL-9r-5oQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uLt-Ks-GIh"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="S0G-lR-te8"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="4216"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bUb-Ow-JDZ">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="xEA-tm-Kcf"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oqA-jz-pNF" sceneMemberID="firstResponder"/>
+                <viewController id="1Fd-3F-UxG" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ubB-3Z-T9q"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fh-PQ-H4W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QUE-74-It7">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="eAO-10-iLW">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2ZR-r5-af5">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPT-et-fcU">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sixx"/>
+                                                <connections>
+                                                    <action selector="disch" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="KEO-Sn-1Yf"/>
+                                                    <action selector="sixx" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="m6J-Vp-O9P"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="XK3-ZK-j4h"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iad-P6-k16">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="al3-sX-tHI" kind="show" id="eJm-W5-Zj6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k35-Xw-qd8">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="skyselect"/>
+                                                <connections>
+                                                    <action selector="dmax" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="pNX-js-J8O"/>
+                                                    <segue destination="A5T-WI-e0r" kind="showDetail" id="0OG-J3-3Pb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q0m-6o-kAH">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fS-WF-qkk">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sonlife"/>
+                                                <connections>
+                                                    <action selector="one23tv" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="wa2-5k-3Sq"/>
+                                                    <action selector="sbn" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="jQV-Em-bow"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="O0j-vz-6I2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fls-nc-R1f">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sonnenklar"/>
+                                                <connections>
+                                                    <action selector="kabeldoku" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="OZ1-ic-iKg"/>
+                                                    <action selector="sonnenklar" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="awu-se-CFo"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="W8i-lN-20H"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pn-qn-vKb">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sport1"/>
+                                                <connections>
+                                                    <action selector="ndr" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="cCg-Ti-WEx"/>
+                                                    <action selector="sport1" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="Od6-nq-N8x"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="KIg-Tf-Pyn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xLq-JM-d9h">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDW-gm-qSk">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="sr"/>
+                                                <connections>
+                                                    <action selector="kika" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="oHt-xn-4AN"/>
+                                                    <action selector="sr" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="pCU-Iq-cZg"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="GAV-1T-mOT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POy-ZJ-si6">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="swr_hd"/>
+                                                <connections>
+                                                    <action selector="mdr" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="Hbi-f7-UmJ"/>
+                                                    <action selector="swr" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="znD-7L-AS7"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="Kkl-GN-Atc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bao-Wg-CZR">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="tagesschau24"/>
+                                                <connections>
+                                                    <action selector="hr" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="RQe-9Q-tLi"/>
+                                                    <action selector="tag24" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="fps-pg-d7b"/>
+                                                    <segue destination="A5T-WI-e0r" kind="showDetail" id="N8T-oD-Vbk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3en-vP-u6I">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1F-xc-LBH">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="tele5"/>
+                                                <connections>
+                                                    <action selector="n24" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="KZH-wO-Q2t"/>
+                                                    <action selector="tele5" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="5zG-gw-wiZ"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="dcb-FN-NVW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od3-Js-sHL">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❯">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Gx2-G6-bNu" kind="show" id="Z34-0g-xre"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfy-WS-wRE">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="tlc"/>
+                                                <connections>
+                                                    <action selector="juwelo" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="XRf-mO-sqW"/>
+                                                    <action selector="tlc" destination="1Fd-3F-UxG" eventType="primaryActionTriggered" id="NKF-lJ-psw"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="tw8-ES-cao"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="900" id="mai-nZ-15K"/>
+                                    <constraint firstAttribute="width" constant="1700" id="mkR-zo-zkH"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL7-KJ-4ps">
+                                <rect key="frame" x="626" y="10" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Gn-ld-ybT"/>
+                        <constraints>
+                            <constraint firstItem="eAO-10-iLW" firstAttribute="leading" secondItem="3Gn-ld-ybT" secondAttribute="leading" constant="30" id="CNf-Vt-CWX"/>
+                            <constraint firstItem="eAO-10-iLW" firstAttribute="top" secondItem="3Gn-ld-ybT" secondAttribute="top" constant="30" id="GIW-0F-SVB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dMO-DG-zlf"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="3c4-MM-DWC"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="5546"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4jv-pz-VHI">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="xIZ-Ht-uzj"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wEC-DQ-T2u" sceneMemberID="firstResponder"/>
+                <viewController id="Gx2-G6-bNu" customClass="ViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dk1-wY-OR4"/>
+                        <viewControllerLayoutGuide type="bottom" id="5LA-hW-A0H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="99V-xQ-VTx">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="LoD-Wp-XI8">
+                                <rect key="frame" x="110" y="90" width="1700" height="900"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fc8-L7-K1R">
+                                        <rect key="frame" x="0.0" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Br-sO-Mrh">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="toggo_plus"/>
+                                                <connections>
+                                                    <action selector="disch" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="0lO-W2-gNQ"/>
+                                                    <action selector="toggoplus" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="z9f-6D-SWA"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="6sk-xR-B4O"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9J-Nw-ZWl">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="❮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="300"/>
+                                                    <color key="baseForegroundColor" red="0.20750686530000001" green="0.47272449729999999" blue="0.96475416420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="1Fd-3F-UxG" kind="show" id="O5I-Zi-Rce"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R34-Qb-otE">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="viva"/>
+                                                <connections>
+                                                    <action selector="dmax" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="hTc-D0-Afb"/>
+                                                    <action selector="vivo" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="3J0-1f-smK"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="u8t-ge-q60"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-rR-k7i">
+                                        <rect key="frame" x="431.5" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAG-ag-8Xz">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="wdr"/>
+                                                <connections>
+                                                    <action selector="one23tv" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="0wp-P8-Uy2"/>
+                                                    <action selector="wdr" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="RAD-ge-JLh"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="bdm-U7-FhG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRz-JE-swl">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="zdf_kultur"/>
+                                                <connections>
+                                                    <action selector="kabeldoku" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="K2x-B5-Zb6"/>
+                                                    <action selector="zdfinfo" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="th5-ts-k2I"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="NCF-rV-cnP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpd-Xm-Fls">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="zdf_neo"/>
+                                                <connections>
+                                                    <action selector="ndr" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="Z4u-wF-jZh"/>
+                                                    <action selector="zdfneo" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="JJn-3C-LxD"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="5gH-oh-BHR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rmS-BO-3A6">
+                                        <rect key="frame" x="862.5" y="0.0" width="406.5" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHJ-EL-gje">
+                                                <rect key="frame" x="0.0" y="0.0" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="cc"/>
+                                                <connections>
+                                                    <action selector="cc" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="nSC-Rn-Y6i"/>
+                                                    <segue destination="A5T-WI-e0r" kind="showDetail" id="hhR-MX-2IO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eZ-SX-gLr">
+                                                <rect key="frame" x="0.0" y="300" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="mtv"/>
+                                                <connections>
+                                                    <action selector="mdr" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="4TL-1s-h03"/>
+                                                    <action selector="mtv" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="F5Y-Gw-BbQ"/>
+                                                    <segue destination="A5T-WI-e0r" kind="show" id="TI0-JB-n2F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2C-sP-TZC">
+                                                <rect key="frame" x="0.0" y="600" width="406.5" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="hr" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="Fyq-XC-Rtt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4nr-NB-KDu">
+                                        <rect key="frame" x="1294" y="0.0" width="406" height="900"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggB-oC-QhN">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="n24" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="s7V-Le-Veo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whw-aB-W4a">
+                                                <rect key="frame" x="0.0" y="300" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH8-tx-XxF">
+                                                <rect key="frame" x="0.0" y="600" width="406" height="300"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="juwelo" destination="Gx2-G6-bNu" eventType="primaryActionTriggered" id="gOL-Ea-37w"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="900" id="G1z-p9-m1B"/>
+                                    <constraint firstAttribute="width" constant="1700" id="gzp-M3-ewX"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IPTV Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0u-3Y-vHN">
+                                <rect key="frame" x="626" y="10" width="689" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xhn-cg-iqg"/>
+                        <constraints>
+                            <constraint firstItem="LoD-Wp-XI8" firstAttribute="top" secondItem="xhn-cg-iqg" secondAttribute="top" constant="30" id="F0a-UO-TX1"/>
+                            <constraint firstItem="LoD-Wp-XI8" firstAttribute="leading" secondItem="xhn-cg-iqg" secondAttribute="leading" constant="30" id="e6d-Ng-v9w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="j61-me-j0a"/>
+                    <connections>
+                        <outlet property="greyView" destination="mcm-y0-BjY" id="ew2-hj-riY"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="116" y="6890"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="O5I-Zi-Rce"/>
+        <segue reference="WRt-am-zpG"/>
+        <segue reference="Awz-Qg-QTT"/>
+        <segue reference="Oos-Q9-OEq"/>
+        <segue reference="6sk-xR-B4O"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="3sat_hd" width="200" height="47"/>
+        <image name="ard_alpha" width="180" height="75"/>
+        <image name="ard_one_hd" width="200" height="42"/>
+        <image name="arte_hd" width="200" height="36"/>
+        <image name="bibel_tv" width="190" height="47"/>
+        <image name="bloomberg" width="190" height="51"/>
+        <image name="br" width="200" height="50"/>
+        <image name="cc" width="2000" height="1572"/>
+        <image name="daserste" width="200" height="44"/>
+        <image name="deutsche_welle" width="200" height="115"/>
+        <image name="disney_channel" width="320" height="149"/>
+        <image name="dmax" width="190" height="45"/>
+        <image name="einszweidrei_tv" width="160" height="30"/>
+        <image name="eurosport" width="190" height="120"/>
+        <image name="hr_hd" width="190" height="84"/>
+        <image name="hse24" width="174" height="81"/>
+        <image name="hse24_extra" width="150" height="39"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="128"/>
+        <image name="juwelo" width="556" height="122"/>
+        <image name="kabel1" width="150" height="132"/>
+        <image name="kabel1_doku" width="200" height="48"/>
+        <image name="kika_hd" width="200" height="74"/>
+        <image name="mdr" width="200" height="76"/>
+        <image name="mtv" width="210" height="240"/>
+        <image name="n24" width="180" height="60"/>
+        <image name="ndr_hd" width="200" height="119"/>
+        <image name="nickelodeon" width="200" height="29"/>
+        <image name="ntv" width="180" height="83"/>
+        <image name="phoenix" width="200" height="117"/>
+        <image name="pro7" width="120" height="120"/>
+        <image name="pro7maxx" width="180" height="34"/>
+        <image name="qvc" width="129" height="140"/>
+        <image name="qvc_plus" width="150" height="105"/>
+        <image name="rbb" width="200" height="69"/>
+        <image name="rtl 1" width="200" height="44"/>
+        <image name="rtl2" width="140" height="132"/>
+        <image name="rtlnitro" width="200" height="37"/>
+        <image name="rtlplus" width="200" height="35"/>
+        <image name="sat1" width="130" height="130"/>
+        <image name="sat1gold" width="180" height="60"/>
+        <image name="servus_tv" width="200" height="89"/>
+        <image name="sixx" width="120" height="120"/>
+        <image name="skyselect" width="168" height="40"/>
+        <image name="sonlife" width="200" height="53"/>
+        <image name="sonnenklar" width="240" height="65"/>
+        <image name="sport1" width="190" height="50"/>
+        <image name="sr" width="150" height="115"/>
+        <image name="superrtl" width="200" height="37"/>
+        <image name="swr_hd" width="200" height="39"/>
+        <image name="tagesschau24" width="200" height="48"/>
+        <image name="tele5" width="190" height="43"/>
+        <image name="tlc" width="173" height="81"/>
+        <image name="toggo_plus" width="200" height="103"/>
+        <image name="viva" width="180" height="58"/>
+        <image name="vox" width="200" height="72"/>
+        <image name="wdr" width="200" height="65"/>
+        <image name="zdf 1" width="160" height="96"/>
+        <image name="zdf_kultur" width="200" height="37"/>
+        <image name="zdf_neo" width="200" height="53"/>
+    </resources>
+</document>
