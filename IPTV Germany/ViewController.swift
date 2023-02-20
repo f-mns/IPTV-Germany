@@ -198,7 +198,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sixx() {
-        streamurl = "https://c7.lbsrv.pw:8081/lb/sixx/1/www.tvpinto.com/c10/1676753984/ktmxpltLw7izWkCkrFUcKA/11716.m3u8"
+        streamurl = ""
     }
     
     @IBAction func sbn() {
