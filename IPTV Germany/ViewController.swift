@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func dasErste() {
-        streamurl = "http://mcdn.daserste.de/daserste/de/master.m3u8"
+        streamurl = "https://mcdn.daserste.de/daserste/de/master.m3u8"
     }
     
     @IBAction func one() {
