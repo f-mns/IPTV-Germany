@@ -116,7 +116,6 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="dasErste" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="APD-Gg-7qg"/>
-                                                                    <segue destination="A5T-WI-e0r" kind="show" id="cuk-14-xRL"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Oz-6d-yoX">
@@ -653,7 +652,6 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="hse24" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="c5v-VQ-0uw"/>
-                                                                    <segue destination="A5T-WI-e0r" kind="show" id="AN0-Yt-fVg"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tlf-8H-YqT">
@@ -1006,7 +1004,7 @@
         <!--Player View Controller-->
         <scene sceneID="cnN-xh-NsM">
             <objects>
-                <viewController id="A5T-WI-e0r" customClass="PlayerViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Player" id="A5T-WI-e0r" customClass="PlayerViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ugs-GU-jZp"/>
                         <viewControllerLayoutGuide type="bottom" id="yoL-Si-4sE"/>
@@ -1134,9 +1132,6 @@
             <point key="canvasLocation" x="4801" y="617"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="cuk-14-xRL"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="3sat" width="180" height="66"/>
         <image name="QVC-Style-logo" width="468" height="290"/>

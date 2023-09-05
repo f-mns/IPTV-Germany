@@ -18,10 +18,17 @@ class ViewController: UIViewController {
         streamurl = ""
     }
     
+    func startPlayer(){
+        let settingController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Player") as! PlayerViewController
+
+        self.present(settingController, animated: true, completion: nil)
+    }
+    
     
     
     @IBAction func dasErste() {
         streamurl = "https://mcdn.daserste.de/daserste/de/master.m3u8"
+        startPlayer()
     }
     
     @IBAction func one() {
