@@ -813,7 +813,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="hse24" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="bibel_tv" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -826,7 +826,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="hse24_extra" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="Image" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -839,7 +839,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="qvc" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="DELUXE_MUSIC_Logo_2019_14" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -852,7 +852,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="qvc_plus" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="disney_channel" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -865,7 +865,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="QVC-Style-logo" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="dmax" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -878,7 +878,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="einszweidrei_tv" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="mtv" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -891,7 +891,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="juwelo" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="n24" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -904,7 +904,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="mediashop_logo_4c_1_12" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="nickelodeon" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -917,14 +917,27 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="servus_tv" cornerStyle="large">
+                                                                    <backgroundConfiguration key="background" strokeWidth="6">
+                                                                        <color key="strokeColor" systemColor="systemPurpleColor"/>
+                                                                    </backgroundConfiguration>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNX-sZ-g2q">
+                                                                <rect key="frame" x="3825" y="0.0" width="400" height="260"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="400" id="RU5-dJ-8dj"/>
+                                                                </constraints>
+                                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="gray" image="tlc" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40j-Ag-x4l">
-                                                                <rect key="frame" x="3825" y="0.0" width="1125" height="260"/>
+                                                                <rect key="frame" x="4250" y="0.0" width="700" height="260"/>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="gray" image="sixx" cornerStyle="large">
@@ -1134,12 +1147,17 @@
     </scenes>
     <resources>
         <image name="3sat" width="180" height="66"/>
+        <image name="DELUXE_MUSIC_Logo_2019_14" width="338" height="390"/>
+        <image name="Image" width="320" height="252"/>
         <image name="QVC-Style-logo" width="468" height="290"/>
         <image name="ard_alpha" width="180" height="75"/>
         <image name="arte" width="164" height="40"/>
+        <image name="bibel_tv" width="190" height="47"/>
         <image name="br" width="200" height="50"/>
         <image name="das_erste" width="200" height="44"/>
         <image name="deutsche_welle" width="200" height="115"/>
+        <image name="disney_channel" width="320" height="149"/>
+        <image name="dmax" width="190" height="45"/>
         <image name="einszweidrei_tv" width="160" height="30"/>
         <image name="hr" width="200" height="52"/>
         <image name="hse24" width="174" height="81"/>
@@ -1150,7 +1168,10 @@
         <image name="kika" width="200" height="98"/>
         <image name="mdr" width="200" height="76"/>
         <image name="mediashop_logo_4c_1_12" width="170" height="170"/>
+        <image name="mtv" width="210" height="240"/>
+        <image name="n24" width="180" height="60"/>
         <image name="ndr" width="200" height="71"/>
+        <image name="nickelodeon" width="200" height="29"/>
         <image name="ntv" width="180" height="83"/>
         <image name="one_tv" width="200" height="62"/>
         <image name="phoenix" width="200" height="117"/>
@@ -1166,11 +1187,13 @@
         <image name="rtlplus" width="200" height="35"/>
         <image name="sat1" width="130" height="130"/>
         <image name="sat1gold" width="180" height="60"/>
+        <image name="servus_tv" width="200" height="89"/>
         <image name="sixx" width="120" height="120"/>
         <image name="sr" width="150" height="115"/>
         <image name="superrtl" width="200" height="37"/>
         <image name="swr" width="200" height="21"/>
         <image name="tagesschau24" width="200" height="48"/>
+        <image name="tlc" width="173" height="81"/>
         <image name="toggo_plus" width="200" height="103"/>
         <image name="vox" width="200" height="72"/>
         <image name="wdr" width="200" height="65"/>
