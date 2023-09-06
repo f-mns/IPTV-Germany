@@ -58,6 +58,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="dreisat" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="vl8-Kp-0nt"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNI-5B-NdM">
                                                                 <rect key="frame" x="425" y="0.0" width="400" height="260"/>
@@ -72,6 +75,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="alpha" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yrL-gz-7Lu"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2h-q8-zYN">
                                                                 <rect key="frame" x="850" y="0.0" width="400" height="260"/>
@@ -86,6 +92,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="arte" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dy1-FS-iKH"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wo8-NM-itW">
                                                                 <rect key="frame" x="1275" y="0.0" width="400" height="260"/>
@@ -100,6 +109,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="br" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="vJT-eN-srl"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94N-66-50u">
                                                                 <rect key="frame" x="1700" y="0.0" width="400" height="260"/>
@@ -116,7 +128,6 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="dasErste" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="APD-Gg-7qg"/>
-                                                                    <segue destination="A5T-WI-e0r" kind="show" id="cuk-14-xRL"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Oz-6d-yoX">
@@ -132,6 +143,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="dw" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="hYM-o7-999"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tg-j0-pHa">
                                                                 <rect key="frame" x="2550" y="0.0" width="400" height="260"/>
@@ -146,6 +160,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="hr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="MQW-eg-pDa"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKK-Ro-157">
                                                                 <rect key="frame" x="2975" y="0.0" width="400" height="260"/>
@@ -160,6 +177,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="kika" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="5pF-No-9dF"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZq-wF-fD2">
                                                                 <rect key="frame" x="3400" y="0.0" width="400" height="260"/>
@@ -174,6 +194,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="mdr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="B3n-YD-Lep"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfV-N4-qY1">
                                                                 <rect key="frame" x="3825" y="0.0" width="400" height="260"/>
@@ -188,6 +211,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="ndr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tiA-oS-D7U"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmw-7z-gfJ">
                                                                 <rect key="frame" x="4250" y="0.0" width="400" height="260"/>
@@ -202,6 +228,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="one" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="5ES-mn-dVt"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOF-U3-i4S">
                                                                 <rect key="frame" x="4675" y="0.0" width="400" height="260"/>
@@ -216,6 +245,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="phoenix" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Yig-Hi-fyz"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4Y-BQ-wuz">
                                                                 <rect key="frame" x="5100" y="0.0" width="400" height="260"/>
@@ -244,6 +276,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="rbb" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="E84-gB-lVW"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtT-nT-QFk">
                                                                 <rect key="frame" x="5950" y="0.0" width="400" height="260"/>
@@ -258,6 +293,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="sr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="0Zk-ao-lzT"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnW-Ac-gYr">
                                                                 <rect key="frame" x="6375" y="0.0" width="400" height="260"/>
@@ -272,6 +310,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="swr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4ZA-W0-YFu"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucd-H0-SWq">
                                                                 <rect key="frame" x="6800" y="0.0" width="400" height="260"/>
@@ -300,6 +341,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="wdr" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="RQT-yK-OO2"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaO-CQ-uCo">
                                                                 <rect key="frame" x="7650" y="0.0" width="400" height="260"/>
@@ -314,6 +358,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="zdf" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="hwv-0P-mOC"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFj-Vs-xvz">
                                                                 <rect key="frame" x="8075" y="0.0" width="400" height="260"/>
@@ -342,6 +389,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="zdfinfo" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="v83-cK-mLW"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCW-nc-LPn">
                                                                 <rect key="frame" x="8925" y="0.0" width="375" height="260"/>
@@ -353,6 +403,9 @@
                                                                     </backgroundConfiguration>
                                                                     <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="zdfneo" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ale-82-PvY"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -653,7 +706,6 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="hse24" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="c5v-VQ-0uw"/>
-                                                                    <segue destination="A5T-WI-e0r" kind="show" id="AN0-Yt-fVg"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tlf-8H-YqT">
@@ -784,13 +836,6 @@
                                                     <constraint firstItem="e3r-dA-tbP" firstAttribute="height" secondItem="kFJ-ug-zVD" secondAttribute="height" multiplier="0.423077" id="pgY-jM-hoo"/>
                                                 </constraints>
                                             </scrollView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htg-AJ-NN9">
-                                                <rect key="frame" x="1754" y="1869" width="166" height="196"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teleshopping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E14-my-0lJ">
                                                 <rect key="frame" x="88" y="1550" width="241" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -815,7 +860,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="hse24" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="bibel_tv" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -828,7 +873,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="hse24_extra" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="Image" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -841,7 +886,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="qvc" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="DELUXE_MUSIC_Logo_2019_14" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -854,7 +899,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="qvc_plus" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="disney_channel" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -867,7 +912,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="QVC-Style-logo" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="dmax" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -880,7 +925,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="einszweidrei_tv" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="mtv" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -893,7 +938,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="juwelo" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="n24" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -906,7 +951,7 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" image="mediashop_logo_4c_1_12" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="nickelodeon" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
@@ -919,14 +964,27 @@
                                                                 </constraints>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="gray" cornerStyle="large">
+                                                                <buttonConfiguration key="configuration" style="gray" image="servus_tv" cornerStyle="large">
+                                                                    <backgroundConfiguration key="background" strokeWidth="6">
+                                                                        <color key="strokeColor" systemColor="systemPurpleColor"/>
+                                                                    </backgroundConfiguration>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNX-sZ-g2q">
+                                                                <rect key="frame" x="3825" y="0.0" width="400" height="260"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="400" id="RU5-dJ-8dj"/>
+                                                                </constraints>
+                                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="gray" image="tlc" cornerStyle="large">
                                                                     <backgroundConfiguration key="background" strokeWidth="6">
                                                                         <color key="strokeColor" systemColor="systemPurpleColor"/>
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40j-Ag-x4l">
-                                                                <rect key="frame" x="3825" y="0.0" width="1125" height="260"/>
+                                                                <rect key="frame" x="4250" y="0.0" width="700" height="260"/>
                                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="gray" image="sixx" cornerStyle="large">
@@ -1006,7 +1064,7 @@
         <!--Player View Controller-->
         <scene sceneID="cnN-xh-NsM">
             <objects>
-                <viewController id="A5T-WI-e0r" customClass="PlayerViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Player" id="A5T-WI-e0r" customClass="PlayerViewController" customModule="IPTV_Germany" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ugs-GU-jZp"/>
                         <viewControllerLayoutGuide type="bottom" id="yoL-Si-4sE"/>
@@ -1134,17 +1192,19 @@
             <point key="canvasLocation" x="4801" y="617"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="cuk-14-xRL"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="3sat" width="180" height="66"/>
+        <image name="DELUXE_MUSIC_Logo_2019_14" width="338" height="390"/>
+        <image name="Image" width="320" height="252"/>
         <image name="QVC-Style-logo" width="468" height="290"/>
         <image name="ard_alpha" width="180" height="75"/>
         <image name="arte" width="164" height="40"/>
+        <image name="bibel_tv" width="190" height="47"/>
         <image name="br" width="200" height="50"/>
         <image name="das_erste" width="200" height="44"/>
         <image name="deutsche_welle" width="200" height="115"/>
+        <image name="disney_channel" width="320" height="149"/>
+        <image name="dmax" width="190" height="45"/>
         <image name="einszweidrei_tv" width="160" height="30"/>
         <image name="hr" width="200" height="52"/>
         <image name="hse24" width="174" height="81"/>
@@ -1155,7 +1215,10 @@
         <image name="kika" width="200" height="98"/>
         <image name="mdr" width="200" height="76"/>
         <image name="mediashop_logo_4c_1_12" width="170" height="170"/>
+        <image name="mtv" width="210" height="240"/>
+        <image name="n24" width="180" height="60"/>
         <image name="ndr" width="200" height="71"/>
+        <image name="nickelodeon" width="200" height="29"/>
         <image name="ntv" width="180" height="83"/>
         <image name="one_tv" width="200" height="62"/>
         <image name="phoenix" width="200" height="117"/>
@@ -1171,11 +1234,13 @@
         <image name="rtlplus" width="200" height="35"/>
         <image name="sat1" width="130" height="130"/>
         <image name="sat1gold" width="180" height="60"/>
+        <image name="servus_tv" width="200" height="89"/>
         <image name="sixx" width="120" height="120"/>
         <image name="sr" width="150" height="115"/>
         <image name="superrtl" width="200" height="37"/>
         <image name="swr" width="200" height="21"/>
         <image name="tagesschau24" width="200" height="48"/>
+        <image name="tlc" width="173" height="81"/>
         <image name="toggo_plus" width="200" height="103"/>
         <image name="vox" width="200" height="72"/>
         <image name="wdr" width="200" height="65"/>
